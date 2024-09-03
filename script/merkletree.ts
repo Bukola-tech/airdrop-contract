@@ -34,8 +34,8 @@ fs.createReadStream(csvFilePath)
 
     // Extracting proof for this address
     const dataleavestarget = {
-        address: "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
-        amount:'200'
+        address: "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+        amount:'105'
     }
     const eachdataleaf = datahash(dataleavestarget)
 
@@ -50,9 +50,7 @@ fs.createReadStream(csvFilePath)
     
 
 
-})
-
-//Merkle Root: 0x7391b396eee846e0d15863dd134a4a6980e23e5957a8fe9f0034890ddf581526
+}//Merkle Root: 0x7391b396eee846e0d15863dd134a4a6980e23e5957a8fe9f0034890ddf581526
 // Proof: [
 //     '0x1589c23c73eeeb2d6ad51b044ef309a3af5b48a9a87bbd48632113227a339cc8',
 //     '0x68b796cef58ebc376e0d425522a2062c85cdb42113c406f5c6dfcbfe90c97bf6',
@@ -60,4 +58,6 @@ fs.createReadStream(csvFilePath)
 //     '0xb25d410bef5113170f9d9917ad80317812261baa525ae4e1d094df28bf91caad'
 //   ]
 //   Proof is valid: true
+)
+
 
